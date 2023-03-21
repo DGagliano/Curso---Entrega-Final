@@ -1,4 +1,4 @@
-export class OnlineShopPage {
+export class ProductPage {
 
 
     addProduct(product) {
