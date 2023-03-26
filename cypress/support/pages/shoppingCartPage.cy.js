@@ -18,6 +18,10 @@ export class ShoppingCartPage {
           const productName = cy.get('p#productName').contains(product);
           return productName
       }
+      
+      clickCheckOut(){
+        cy.get('button').contains('Go to Checkout').click();
+      }  
   }
 
  
